@@ -27,9 +27,9 @@ public class Main{
       ir = grossSalary * 0.07;
     }
     
-    double result = grossSalary - inss - ir;
+    double liquidSalary = grossSalary - inss - ir;
 
-    System.out.println("Salário bruto: " + result);
+    System.out.println("Salário liquido: " + liquidSalary);
     
   }
 }
